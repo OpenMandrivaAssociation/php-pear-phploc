@@ -2,8 +2,8 @@
 
 Summary:	A tool for quickly measuring the size of a PHP project
 Name:		php-pear-%{upstream_name}
-Version:	1.6.2
-Release:	%mkrel 2
+Version:	1.6.4
+Release:	1
 License:	BSD
 Group:		Development/PHP
 URL:		http://www.phpunit.de/
@@ -72,3 +72,17 @@ fi
 %{_datadir}/pear/PHPLOC
 %{_datadir}/pear/packages/phploc.xml
 
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.6.2-2mdv2012.0
++ Revision: 742323
+- fix major breakage by careless packager
+
+* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.6.2-1
++ Revision: 730881
+- import php-pear-phploc
+
+
+* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.6.2-1mdv2010.2
+- initial Mandriva package
