@@ -5,7 +5,7 @@ Summary:	A tool for quickly measuring the size of a PHP project
 
 Name:		php-pear-%{upstream_name}
 Version:	1.6.4
-Release:	2
+Release:	3
 License:	BSD
 Group:		Development/PHP
 URL:		http://www.phpunit.de/
